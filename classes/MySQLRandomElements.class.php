@@ -580,7 +580,7 @@ require_once("RandomElements.class.php");
 	$id = $this->rnd_domains_number + 1;   // Autonumeric
 
         // Table creation if it does not exists
-        $this->createIPsTable(self::DATA_RNDDOMAINSC_NAME, $use_index);
+        $this->createDomainsTable(self::DATA_RNDDOMAINSC_NAME, $use_index);
 
         $i = 1;
 		while ($i <= $number)	{
