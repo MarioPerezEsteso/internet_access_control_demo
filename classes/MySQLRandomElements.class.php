@@ -643,7 +643,7 @@ require_once("RandomElements.class.php");
         $id = $this->rnd_uris_number + 1;   // Autonumeric
 
         // Table creation if it does not exists
-        $this->createIPsTable(self::DATA_RNDURISC_NAME);
+        $this->createURIsTable(self::DATA_RNDURISC_NAME);
 
         $i = 1;
         while ($i <= $number)   {
