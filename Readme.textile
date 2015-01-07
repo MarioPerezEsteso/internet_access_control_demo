@@ -34,7 +34,7 @@ mysql> grant all privileges on InternetAccessLog.* to mysqldb@localhost identifi
 > db.addUser("mongodb", "mongodb")</code></pre>
 
 h4. Generating random data
-The following PHP scripts create 3 monts of random data as explained before:
+The following PHP scripts create 3 months of random data as explained before:
 * "createData_3months_mongo.php"
 * "createData_3months_mysql.php"
 
